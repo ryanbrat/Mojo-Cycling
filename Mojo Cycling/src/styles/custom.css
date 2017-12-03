@@ -1,0 +1,73 @@
+body{
+  margin-top: 76px;
+
+}
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeTrail.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+.quote{
+  padding: 1rem;
+}
+
+.service-section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeShopWorkBench.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.events{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/mojoAtRace.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: static;
+}
+
+/*Positioning text over carousel images*/
+.text-overlay{
+  top: 20%;
+}
+
+/*Overlay on carousel images*/
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.55);
+}
+
+/*Nav logo positioning*/
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  /*Nav logo positioning*/
+.nav-logo {
+  left: 50px;
+  bottom: -120%;
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  transition-timing-function: ease-in-out;
+  animation-duration: 0.5;
+  }
+  body{
+  margin-top: 56px;
+  }
+ }

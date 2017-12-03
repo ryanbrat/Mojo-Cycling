@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Mojo Cycling</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <!-- Google Fonts -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Pacifico" rel="stylesheet"> -->
+  <!-- Custom CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet/scss" type="text/css" href="test.scss"> -->
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/custom.css">
+  <link rel=icon href="images/savedMojoLogo.png">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+
+      <!-- NAV -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img class="nav-logo" src="images/mojoSavedLogo.png" alt="Mojo Logo">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" id="myScrollspy">
+        <ul class="navbar-nav nav-pills align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#bikes">Bikes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accessories">Accessories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#fittings">Fittings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </nav>
+
+<!-- </header> -->
+  <!-- CAROUSEL -->
+  <div id="home" class="container-fluid" style="padding:0;">
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/groupRide.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block text-overlay">
+              <h3>We are Mojo Cycling</h3>
+              <p>Community, health, performance.</p>
+              <a href="#" class="btn btn-lg btn-danger">Join our mailing list</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/bikesOnRack.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block text-overlay">
+              <h3>2018 Bikes Are Here!</h3>
+              <p>We stock bikes from exelent brands like Orbea</p>
+              <a href="#" class="btn btn-lg btn-danger">Our Brands</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/bikeFitting.jpg" alt="Third slide">
+            <!-- <div class="container"> -->
+              <div class="carousel-caption d-none d-md-block text-overlay">
+                <!-- <div class="p-b-5"> -->
+                  <h3>Professional Service</h3>
+                  <p>From bike fittings to tune ups, we want you to get the most out of your ride.</p>
+                  <a href="#" class="btn btn-lg btn-danger">Service</a>
+                <!-- </div> -->
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    </section>
+  </div>
+  <!-- Quote Section -->
+  <div class="container-fluid quote bg-light">
+    <div class="text-center">
+      <h3>
+      "A nice one or two line quote here."
+    </h3>
+      <footer>
+        <cite>- Someone Famous</cite>
+      </footer>
+    </div>
+  </div>
+
+
+  <!-- First Section -->
+  <div id="bikes" class="first-section container-fluid bg-dark">
+    <div class="container p-5">
+      <h2 class="text-danger text-center p-4">From beginner to expert, we are here to help you find the right bike and accessories</h2>
+      <div class="row">
+      <div class="card-deck">
+        <div class="col-md-4">
+          <div class="card bg-light text-dark p-1">
+            <div class="card-block text-center">
+              <h3 class="card-title">Trail proven brands</h3>
+              <p class="card-text">The brands we offer are proven on the trail and trusted by our riders.</p>
+              <a href="#" class="btn btn-danger">Our brands</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-dark">
+            <div class="card-block text-center">
+              <h3 class="card-title">Right bike for you</h3>
+              <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
+              <a href="#" class="btn btn-danger">Our bikes</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-light text-dark">
+            <div class="card-block text-center">
+              <h3 class="card-title">Custom Bike builds</h3>
+              <p class="card-text">Ready to build your dream machine? We offer custom builds.</p>
+              <a href="#" class="btn btn-danger">Recent builds</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+
+  <!-- Quote Section -->
+  <div class="container-fluid quote bg-light">
+    <div class="text-center">
+      <h3>
+        "A nice one or two line quote here."
+      </h3>
+      <footer>
+        <cite>- Someone Famous</cite>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Accessories -->
+<div id="accessories" class="container-fluid">
+  <div class="row">
+  <div class="col-md-5  bg-light">
+    <h2 class="text-dark text-center p-4">Here is a short description to explain what protective equipment and accesories we offer.</h2>
+    <p class="p-3">The right safety accessories will ensure you enjoy your ride comfortably. We offer 10% off accessories with the purchase of a new bike!</p>
+  </div>
+  <div class="col-md-7">
+    <img class="img-fluid" src="images/bikeShopShoes.jpg" alt="Card image">
+  </div>
+</div>
+</div>
+
+    <!-- Fittings -->
+    <div id="fittings" class="container-fluid">
+      <div class="row">
+        <div class="col-md-5  bg-light order-md-12">
+          <h2 class="text-dark text-center p-4">Here is a short description to explain why we offer free fittings with a bike purchase.</h2>
+          <p class="p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to scedule your fitting today!</p>
+        </div>
+
+        <div class="col-md-7 order-sm-1">
+          <img class="img-fluid" src="images/bikeFitting.jpg" alt="Card image">
+        </div>
+      </div>
+    </div>
+
+  <!-- Quote Section -->
+  <div class="container-fluid quote bg-light">
+    <div class="text-center">
+      <h3>
+        "A nice one or two line quote here."
+      </h3>
+      <footer>
+        <cite>- Someone Famous</cite>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Service -->
+   <!-- style="padding-top:60px; padding-bottom:60px;" -->
+   <div id="service" class="container-fluid service-section text-light">
+      <div class="row p-5">
+          <div class="card-block text-center">
+            <h3 class="card-title"><i class="fa fa-wrench p-1" aria-hidden="true"></i>Service</h3>
+            <p class="card-text">Our service is second to none with trained mechanics and quick turn around times. Call us for help with your bike problems, or check out our price list of some of our most common services.</p>
+            <a href="#" class="btn btn-danger">Service Pricing</a>
+          </div>
+        </div>
+      </div>
+
+  <!-- Quote Section -->
+  <div class="container-fluid quote bg-light">
+    <div class="text-center">
+      <h3>
+        "A nice one or two line quote here."
+      </h3>
+      <footer>
+        <cite>- Someone Famous</cite>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Events Section -->
+  <div id="events" class="events container-fluid">
+    <h2 class="text-light text-center p-5">Look for the Mojo crew and race support tent at these upcoming events!</h2>
+
+    <div class="row p-4">
+    <div class="col-md-5 text-light p-1">
+      <p>Lorem ipsum Mojo Cycling events bla bla from supporting NICA events with mechanical repairs to volunteering on the trails.</p>
+    </div>
+
+  <div class="col-md-7">
+    <div class="p-4" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="card bg-dark">
+        <div class="card-header" role="tab" id="headingOne">
+          <h5 class="mb-0 text-center">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Slaughter Pen Jam
+            </a>
+          </h5>
+        </div>
+
+        <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="card-block text-light">
+            <p>Slaughter Pen Jam is an annual Mountain Biking Festival here in Bentonville, Arkansas! Stay tuned as we crank out more details of the 3-day event!</p>
+            <a href="https://www.visitbentonville.com/bike/events/slaughter-pen-jam/">Event Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <div class="card-header" role="tab" id="headingTwo">
+          <h5 class="mb-0 text-center">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Event #2
+            </a>
+          </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+          <div class="card-block text-light">
+            <p>Slaughter Pen Jam is an annual Mountain Biking Festival here in Bentonville, Arkansas! Stay tuned as we crank out more details of the 3-day event!</p>
+            <a href="https://www.visitbentonville.com/bike/events/slaughter-pen-jam/">Event Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="card bg-dark">
+        <div class="card-header" role="tab" id="headingThree">
+          <h5 class="mb-0 text-center">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Event #3
+            </a>
+          </h5>
+        </div>
+        <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="card-block text-light">
+            <p>Slaughter Pen Jam is an annual Mountain Biking Festival here in Bentonville, Arkansas! Stay tuned as we crank out more details of the 3-day event!</p>
+            <a href="https://www.visitbentonville.com/bike/events/slaughter-pen-jam/">Event Page</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+  <!-- Quote Section -->
+  <div class="container-fluid quote bg-light">
+    <div class="text-center">
+      <h3>
+        "A nice one or two line quote here."
+      </h3>
+      <footer>
+        <cite>- Someone Famous</cite>
+      </footer>
+    </div>
+  </div>
+
+  <!-- About -->
+<div id="about" class="container-fluid text-center about-section text-light bg-dark">
+    <h2 class="p-4">Why Mojo Cycling?</h2>
+    <p>Mojo Cycling is all about community, meet the guys that make it all happen and read about their favorite bike and accesories!</p>
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img class="rounded-circle img-fluid " src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <p><strong>Dave Neal</strong></p>
+        <p>Owner, shredder</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img class="rounded-circle img-fluid w-40" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <p><strong>Hunter</strong></p>
+        <p>Manager, roadie</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img class="rounded-circle img-fluid w-40" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <p><strong>Keith</strong></p>
+        <p>MTBer, very excitable</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Footer -->
+  <footer id="contact">
+        <div class="container-fluid text-light">
+            <h2 class="text-center p-4">CONTACT</h2>
+            <div class="row">
+              <div class="col m-4">
+                <p class="text-center text-danger">Coming in to town and need recomendations on where to ride? Or just want to chat bikes? Drop us a line.</p>
+                <div class="row">
+
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                  </div>
+                  <div class="col-sm-6 form-group">
+                    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                  </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                  <div class="col-sm-12 form-group text-center">
+                    <button class="btn btn-danger" type="submit">Send</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid bg-dark p-4">
+            <div class="row">
+             <div class="col-md-4">
+               <ul class="list-group text-dark">
+                 <li class="list-group-item justify-content-between">
+                   <h5>Hours:</h5>
+                 </li>
+                <li class="list-group-item justify-content-between">
+                  MON-FRI:
+                  <span class="badge badge-default badge-pill">11am - 7pm</span>
+                </li>
+                <li class="list-group-item justify-content-between">
+                  Saturday:
+                  <span class="badge badge-default badge-pill">11am - 5pm</span>
+                </li>
+                <li class="list-group-item justify-content-between">
+                  Sunday:
+                  <span class="badge badge-default badge-pill">Closed</span>
+                </li>
+              </ul>
+             </div>
+
+             <div class="col-md-4">
+               <ul class="list-group">
+                 <h5 class="list-group-item text-dark">Trail Info:</h5>
+                <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
+                <li class="list-group-item"><a href="http://www.bellavistaar.gov/theback40/">Back 40</a></li>
+                <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
+               </ul>
+            </div>
+
+            <div class="col-md-4">
+              <div>
+                <ul class="list-group text-dark">
+                  <li class="list-group-item justify-content-between">
+                    <i class="fa fa-map-marker" aria-hidden="true">
+                      <a href="https://www.google.com/maps/place/Mojo+Cycling/@36.34927,-94.211372,15z/data=!4m5!3m4!1s0x0:0x60369447f715997e!8m2!3d36.34927!4d-94.211372">
+                        <strong>2104 S Walton Blvd, Bentonville, AR 72712</strong>
+                      </a>
+                     </i>
+                  </li>
+                 <li class="list-group-item justify-content-between">
+                   <i class="fa fa-envelope-square" aria-hidden="true">
+                     <a href="mailto:mojobicycles@gmail.com">
+                       <strong>mojobicycles@gmail.com</strong>
+                    </a>
+                  </i>
+                 </li>
+                 <li class="list-group-item justify-content-between">
+                   <i class="fa fa-phone" aria-hidden="true">
+                     <a href="tel:4792717201">
+                       <strong>479-271-7201</strong>
+                    </a>
+                  </i>
+                </li>
+               </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+              <div class="container-fluid bg-dark">
+                <div class="row justify-content-start">
+                  <div class="col-md-4 d-flex justify-content-around p-4">
+                    <button class="btn btn-danger" onclick="topFunction()" id="myBtn" title="Go to top" href="#home">Top</button>
+                  </div>
+
+                  <div class="col-md-4 d-flex justify-content-around p-4">
+                    <a href="https://www.facebook.com/mojocycling"><i id="social-fb" class="fa fa-facebook-square fa-3x social text-primary"></i></a>
+                    <a href="https://www.instagram.com/mojocycling"><i id="social-fb" class="fa fa-instagram fa-3x social text-light"></i></a>
+                    <a href="https://www.youtube.com/mojocycling"><i id="social-fb" class="fa fa-youtube-square fa-3x social text-danger"></i></a>
+                  </div>
+                </div>
+              </div>
+    <div class="container-fluid bg-dark">
+      <div class="row">
+        <span class="copyright mx-auto text-light">
+          © <script>document.write(new Date().getFullYear())</script><a href="#"> Proto Web Development</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> -->
+  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
