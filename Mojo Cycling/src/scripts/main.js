@@ -1,17 +1,17 @@
 
 
-  // $(function() {
-  //     var header = $(".nav-logo");
-  //     $(window).scroll(function() {
-  //         var scroll = $(window).scrollTop();
-  //
-  //         if (scroll >= 500) {
-  //             header.removeClass('nav-logo').addClass("small-brand");
-  //         } else {
-  //             header.removeClass("small-brand").addClass('nav-logo');
-  //         }
-  //     });
-  // });
+  $(function() {
+      var header = $(".nav-logo");
+      $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 500) {
+              header.removeClass('nav-logo').addClass("small-brand");
+          } else {
+              header.removeClass("small-brand").addClass('nav-logo');
+          }
+      });
+  });
 
 
 // BACK TO TOP BUTTON

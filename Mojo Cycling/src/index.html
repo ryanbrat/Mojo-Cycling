@@ -28,7 +28,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img class="nav-logo" src="images/mojoSavedLogo.png" alt="Mojo Logo">
+        <img id="" class="nav-logo" src="images/mojoSavedLogo.png" alt="Mojo Logo">
       </a>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" id="myScrollspy">
         <ul class="navbar-nav nav-pills align-items-center">
@@ -51,7 +51,7 @@
             <a class="nav-link" href="#events">Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -86,7 +86,7 @@
             <div class="carousel-caption d-none d-md-block text-overlay">
               <h3>We are Mojo Cycling</h3>
               <p>Community, health, performance.</p>
-              <a href="#" class="btn btn-lg btn-danger">Join our mailing list</a>
+              <a href="#contact" class="btn btn-lg btn-danger">Join our mailing list</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -94,7 +94,7 @@
             <div class="carousel-caption d-none d-md-block text-overlay">
               <h3>2018 Bikes Are Here!</h3>
               <p>We stock bikes from exelent brands like Orbea</p>
-              <a href="#" class="btn btn-lg btn-danger">Our Brands</a>
+              <a href="/brands" class="btn btn-lg btn-danger">Our Brands</a>
             </div>
           </div>
           <div class="carousel-item">
@@ -104,7 +104,7 @@
                 <!-- <div class="p-b-5"> -->
                   <h3>Professional Service</h3>
                   <p>From bike fittings to tune ups, we want you to get the most out of your ride.</p>
-                  <a href="#" class="btn btn-lg btn-danger">Service</a>
+                  <a href="#service" class="btn btn-lg btn-danger">Service</a>
                 <!-- </div> -->
               </div>
           </div>
@@ -137,33 +137,33 @@
   <!-- First Section -->
   <div id="bikes" class="first-section container-fluid bg-dark">
     <div class="container p-5">
-      <h2 class="text-danger text-center p-4">From beginner to expert, we are here to help you find the right bike and accessories</h2>
+      <h2 class="text-light text-center p-4">From beginner to expert, we are here to help you find the right bike and accessories</h2>
       <div class="row">
       <div class="card-deck">
-        <div class="col-md-4">
-          <div class="card bg-light text-dark p-3">
+        <div class="col-md">
+          <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
               <h3 class="card-title">Trail proven brands</h3>
               <p class="card-text">The brands we offer are proven on the trail and trusted by our riders.</p>
-              <a href="#" class="btn btn-danger">Our brands</a>
+              <a href="/brands" class="btn btn-danger">Our brands</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-light text-dark p-3">
+        <div class="col-md">
+          <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
               <h3 class="card-title">Right bike for you</h3>
               <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
-              <a href="#" class="btn btn-danger">Our bikes</a>
+              <a href="/bikes" class="btn btn-danger">Our bikes</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card bg-light text-dark p-3">
+        <div class="col-md">
+          <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
               <h3 class="card-title">Custom Bike builds</h3>
               <p class="card-text">Ready to build your dream machine? We offer custom builds.</p>
-              <a href="#" class="btn btn-danger">Recent builds</a>
+              <a href="custom-builds" class="btn btn-danger">Recent builds</a>
             </div>
           </div>
         </div>
@@ -202,7 +202,7 @@
       <div class="row">
         <div class="col-md-5 order-md-12">
           <h2 class="text-dark text-center p-4">Here is a short description to explain why we offer free fittings with a bike purchase.</h2>
-          <p class="p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to scedule your fitting today!</p>
+          <p class="p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to schedule your fitting today!</p>
         </div>
 
         <div class="col-md-7 order-sm-1">
@@ -306,6 +306,7 @@
         <div class="container-fluid text-light">
             <h2 class="text-center p-4">CONTACT</h2>
             <div class="row">
+              <div class="card-deck">
               <div class="col m-4">
                 <p class="text-center text-light">Coming in to town and need recomendations on where to ride? Or just want to chat bikes? Drop us a line.</p>
                 <div class="row">
@@ -334,7 +335,7 @@
           <div class="container-fluid bg-dark p-4">
             <div class="row">
              <div class="col-md-4">
-               <ul class="list-group text-dark">
+               <ul class="list-group text-dark h-100">
                  <li class="list-group-item justify-content-between">
                    <h5>Hours:</h5>
                  </li>
@@ -354,8 +355,11 @@
              </div>
 
              <div class="col-md-4">
-               <div>
+               <div class=" h-100">
                  <ul class="list-group text-dark">
+                   <li class="list-group-item justify-content-between">
+                     <h5>Location:</h5>
+                   </li>
                    <li class="list-group-item justify-content-between">
                      <i class="fa fa-map-marker" aria-hidden="true">
                        <a href="https://www.google.com/maps/place/Mojo+Cycling/@36.34927,-94.211372,15z/data=!4m5!3m4!1s0x0:0x60369447f715997e!8m2!3d36.34927!4d-94.211372">
@@ -382,16 +386,16 @@
              </div>
 
              <div class="col-md-4">
-               <ul class="list-group">
+               <ul class="list-group h-100">
                  <h5 class="list-group-item text-dark">Trail Info:</h5>
                 <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
                 <li class="list-group-item"><a href="http://www.bellavistaar.gov/theback40/">Back 40</a></li>
                 <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
                </ul>
             </div>
-
+          </div>
         </div>
-      </div>
+      
               <div class="container-fluid bg-dark">
                 <div class="row">
                   <div class="col-md-4 p-4">
@@ -408,8 +412,6 @@
                   <div class="col-md-4">
 
                   </div>
- <!-- d-flex justify-content-around justify-content-end -->
-
                 </div>
               </div>
     <div class="container-fluid bg-dark">

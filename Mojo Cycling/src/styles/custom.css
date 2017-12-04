@@ -68,6 +68,16 @@ body{
   transition-duration: 0.5s;
 }
 
+.small-brand {
+  left: 50px;
+  bottom: -120%;
+  position: static;
+  height: 60px;
+  width: 60px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5;
+  }
+
 @media screen and (min-width: 768px) {
   /*Nav logo positioning*/
 .nav-logo {
@@ -77,7 +87,7 @@ body{
   height: 120px;
   width: 120px;
   transition-timing-function: ease-in-out;
-  animation-duration: 0.5;
+  transition-duration: 0.5;
   }
   body{
   margin-top: 56px;
