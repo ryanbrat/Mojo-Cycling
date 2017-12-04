@@ -48,6 +48,18 @@ body{
   background:rgba(0,0,0,0.55);
 }
 
+#fittings .col-md-7, #accessories .col-md-7{
+  padding: 0;
+}
+
+#fittings, #accessories, #about{
+  background-color: #7b7e82;
+}
+
+.card .carousel-item {
+  height: 200px;
+}
+
 /*Nav logo positioning*/
 .nav-logo {
   height: 60px;

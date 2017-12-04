@@ -1,4 +1,4 @@
-/* This file was generated on Fri Dec 01 2017 03:16:34 GMT-0600 (CST)  */
+/* This file was generated on Mon Dec 04 2017 09:33:11 GMT-0600 (CST)  */
 /*!
  * Bootstrap Reboot v4.0.0-beta.2 (https://getbootstrap.com)
  * Copyright 2011-2017 The Bootstrap Authors
@@ -109,12 +109,12 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #ff0000;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
   a:hover {
-    color: #0056b3;
+    color: #b30000;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
