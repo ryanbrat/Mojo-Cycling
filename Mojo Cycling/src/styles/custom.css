@@ -10,6 +10,17 @@ body{
   background-attachment: fixed;
 }
 
+#bikes {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikesOnRack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+li{
+  list-style-type: none;
+}
 
 .quote{
   padding: 1rem;
@@ -21,14 +32,6 @@ body{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-}
-
-.events{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/mojoAtRace.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: static;
 }
 
 /*Positioning text over carousel images*/
@@ -52,8 +55,32 @@ body{
   padding: 0;
 }
 
-#fittings, #accessories, #about{
-  background-color: #7b7e82;
+#accessories, #about{
+  background-color: lightgrey;
+}
+
+.service-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.brands-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.fitting-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .card .carousel-item {
@@ -78,6 +105,34 @@ body{
   transition-duration: 0.5;
   }
 
+  .team-images {
+    position: relative;
+    max-width: 80%;
+  }
+
+  .team-images img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+  .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+}
+
+.team-images:hover .overlay {
+  opacity: 1;
+}
+
 @media screen and (min-width: 768px) {
   /*Nav logo positioning*/
 .nav-logo {
@@ -93,3 +148,49 @@ body{
   margin-top: 56px;
   }
  }
+
+ #photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+ }
+
+ #photos img {
+   max-width: 100%;
+   padding: 1rem;
+ }
+
+ @media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}

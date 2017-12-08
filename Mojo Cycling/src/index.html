@@ -15,9 +15,11 @@
   <!-- Custom CSS -->
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> -->
   <!-- <link rel="stylesheet/scss" type="text/css" href="test.scss"> -->
+  <!-- <link rel="stylesheet" href="styles/mdb.css"> -->
   <link rel="stylesheet" href="styles/bootstrap.css">
+
   <link rel="stylesheet" href="styles/custom.css">
-  <link rel=icon href="images/savedMojoLogo.png">
+  <link rel=icon href="images/mojoSavedLogo.png">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -46,9 +48,6 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#service">Service</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#events">Events</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
@@ -121,25 +120,48 @@
 
     </section>
   </div>
-  <!-- Quote Section -->
-  <div class="container-fluid quote bg-light">
-    <div class="text-center">
-      <h3>
-      "A nice one or two line quote here."
-    </h3>
-      <footer>
-        <cite>- Someone Famous</cite>
-      </footer>
-    </div>
+
+
+
+  <div class="bg-danger p-5 text-center text-light">
+    <h2 class="text-center p-4">The Mojo experience starts with finding the right bike for you.</h2>
+    <p class="font-italic">The details matter.</p>
   </div>
 
+    <div class="container p-5 text-center">
+      <div class="row">
+        <div class="col-md-6">
+            <h3 class="p-4">Every Mojo bike comes with:</h3>
+        </div>
+        <div class="col-md-6">
+          <h5><i class="fa fa-dollar pr-3" aria-hidden="true"></i>10% off accessories</h5>
+          <h5><i class="fa fa-check pr-3" aria-hidden="true"></i>A full professional fitting</h5>
+          <h5><i class="fa fa-wrench pr-3" aria-hidden="true"></i>Lifetime free tune ups</h5>
+        </div>
+      </div>
+
+        <div class="container pt-4">
+          <div class="row">
+            <!-- <p class="">Every bike purchase comes with a free profesional fitting. A quality fitting starts with selecting the right size bike and is key to performance and comfort on your bike.</p> -->
+            <a href="/fitting" class="btn btn-danger text-light mx-auto">More about fittings</a>
+          </div>
+        </div>
+
+
+    </div>
+
+    <!-- HERO IMAGE? -->
+    <div class="container-fluid">
+
+    </div>
 
   <!-- First Section -->
-  <div id="bikes" class="first-section container-fluid bg-dark">
+  <div id="bikes" class="first-section container-fluid ">
     <div class="container p-5">
-      <h2 class="text-light text-center p-4">From beginner to expert, we are here to help you find the right bike and accessories</h2>
+      <!-- <h2 class="text-light text-center p-4"></h2> -->
       <div class="row">
-      <div class="card-deck">
+
+      <div class="card-deck mt-5 mb-5">
         <div class="col-md">
           <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
@@ -152,7 +174,7 @@
         <div class="col-md">
           <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
-              <h3 class="card-title">Right bike for you</h3>
+              <h3 class="card-title">The bike for you</h3>
               <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
               <a href="/bikes" class="btn btn-danger">Our bikes</a>
             </div>
@@ -161,9 +183,9 @@
         <div class="col-md">
           <div class="card h-100 bg-light text-dark p-3">
             <div class="card-block text-center">
-              <h3 class="card-title">Custom Bike builds</h3>
+              <h3 class="card-title">Custom bike builds</h3>
               <p class="card-text">Ready to build your dream machine? We offer custom builds.</p>
-              <a href="custom-builds" class="btn btn-danger">Recent builds</a>
+              <a href="/custom-builds" class="btn btn-danger">Recent builds</a>
             </div>
           </div>
         </div>
@@ -176,10 +198,10 @@
   <div class="container-fluid quote bg-light">
     <div class="text-center">
       <h3>
-        "A nice one or two line quote here."
+        "Bro, do you put an angle set in everything?."
       </h3>
       <footer>
-        <cite>- Someone Famous</cite>
+        <cite>- That one guy</cite>
       </footer>
     </div>
   </div>
@@ -187,8 +209,9 @@
   <!-- Accessories -->
 <div id="accessories" class="container-fluid">
   <div class="row">
-  <div class="col-md-5">
-    <h2 class="text-dark text-center p-4">Here is a short description to explain what protective equipment and accesories we offer.</h2>
+  <div class="col-md-5 p-5">
+    <h2 class="text-center p-3 text-danger">Mojo Accessories</h2>
+    <h4 class="text-center p-2">Here is a short description to explain what protective equipment and accesories we offer.</h2>
     <p class="p-3">The right safety accessories will ensure you enjoy your ride comfortably. We offer 10% off accessories with the purchase of a new bike!</p>
   </div>
   <div class="col-md-7">
@@ -198,18 +221,18 @@
 </div>
 
     <!-- Fittings -->
-    <div id="fittings" class="container-fluid">
+    <!-- <div id="fittings" class="container-fluid">
       <div class="row">
         <div class="col-md-5 order-md-12">
-          <h2 class="text-dark text-center p-4">Here is a short description to explain why we offer free fittings with a bike purchase.</h2>
-          <p class="p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to schedule your fitting today!</p>
+          <h2 class="text-center p-4">Here is a short description to explain why we offer free fittings with a bike purchase.</h2>
+          <p class="text-light p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to schedule your fitting today!</p>
         </div>
 
         <div class="col-md-7 order-sm-1">
           <img class="img-fluid" src="images/bikeFitting.jpg" alt="Card image">
         </div>
       </div>
-    </div>
+    </div> -->
 
   <!-- Quote Section -->
   <div class="container-fluid quote bg-light">
@@ -225,12 +248,12 @@
 
   <!-- Service -->
    <!-- style="padding-top:60px; padding-bottom:60px;" -->
-   <div id="service" class="container-fluid service-section text-light">
+   <div id="service" class="p-5 container-fluid service-section text-light">
       <div class="row p-5">
           <div class="card-block text-center">
-            <h3 class="card-title"><i class="fa fa-wrench p-1" aria-hidden="true"></i>Service</h3>
-            <p class="card-text">Our service is second to none with trained mechanics and quick turn around times. Call us for help with your bike problems, or check out our price list of some of our most common services.</p>
-            <a href="#" class="btn btn-danger">Service Pricing</a>
+            <h2 class="card-title"><i class="fa fa-wrench pr-1" aria-hidden="true"></i>Service</h2>
+            <p class="card-text p-5">Our service is second to none with trained mechanics and quick turn around times. Call us for help with your bike problems, or check out our price list of some of our most common services.</p>
+            <a  href="/service" class="btn btn-danger">Service Pricing</a>
           </div>
         </div>
       </div>
@@ -247,96 +270,172 @@
     </div>
   </div>
 
-  <!-- Events Section -->
-  <div id="events" class="events container-fluid">
-    <h2 class="text-light text-center p-5">Look for the Mojo crew and race support tent at these upcoming events!</h2>
-      <div class="row p-4">
-        <div class="col-md-5 text-light p-1">
-          <p>Lorem ipsum Mojo Cycling events bla bla from supporting NICA events with mechanical repairs to volunteering on the trails.</p>
-        </div>
-
-        <div class="col-md-7">
-
-        </div>
-    </div>
-  </div>
-
-  <!-- Quote Section -->
-  <div class="container-fluid quote bg-light">
-    <div class="text-center">
-      <h3>
-        "A nice one or two line quote here."
-      </h3>
-      <footer>
-        <cite>- Someone Famous</cite>
-      </footer>
-    </div>
-  </div>
 
   <!-- About -->
-<div id="about" class="container-fluid text-center about-section text-light">
-    <h2 class="p-4">Why Mojo Cycling?</h2>
-    <p>Mojo Cycling is all about community, meet the guys that make it all happen and read about their favorite bike and accesories!</p>
+
+<div id="about" class=" p-5 container-fluid text-center about-section text-dark">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="bg-danger p-5 text-center text-light">
+        <h2 class="text-center p-4">The Mojo story</h2>
+        <p class="font-italic">It's shred-tastic</p>
+      </div>
+      <h4 class="m-5">Mojo started has a hobby, then became a lifestyle.</h4>
+      <p class="m-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+    <div class="col-md-5 pr-4 pl-4">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="team-images mx-auto h-100">
+            <img class="" src="images/mugShot.jpg" alt="">
+            <!-- </div> -->
+              <a href="#">
+                <div class="overlay text-light d-flex align-middle">
+                  <p class=""><strong>Dave Neal</strong></p>
+                  <p>Owner, shredder</p>
+                  <p class="font-italic">read bio</p>
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="team-images mx-auto">
+            <img class="" src="images/mugShot.jpg" alt="">
+            <!-- </div> -->
+            <a href="#"><div class="pt-5 container overlay text-light">
+
+                <p class="mt-4"><strong>Dave Neal</strong></p>
+                <p>Owner, shredder</p>
+                <p class="font-italic">read bio</p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="team-images mx-auto">
+            <img class="" src="images/mugShot.jpg" alt="">
+            <!-- </div> -->
+            <a href="#"><div class="pt-5 container overlay text-light">
+
+                <p class="mt-4"><strong>Dave Neal</strong></p>
+                <p>Owner, shredder</p>
+                <p class="font-italic">read bio</p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+    <!-- <h2 class="p-4">Why Mojo Cycling?</h2>
+    <p>Mojo Cycling is all about community, meet the guys that make it all happen and read about their favorite bike and accessories!</p>
   <div class="row">
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img class="rounded-circle img-fluid " src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <img class="rounded-circle img-fluid m-4" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
         <p><strong>Dave Neal</strong></p>
         <p>Owner, shredder</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img class="rounded-circle img-fluid w-40" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <img class="rounded-circle img-fluid m-4" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
         <p><strong>Hunter</strong></p>
         <p>Manager, roadie</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img class="rounded-circle img-fluid w-40" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
+        <img class="rounded-circle img-fluid m-4" src="images/mugShot.jpg" style="width: 200px; height: 200px;" alt="">
         <p><strong>Keith</strong></p>
         <p>MTBer, very excitable</p>
       </div>
     </div>
+  </div> -->
+
+
+<!-- Quote Section -->
+<div class="container-fluid quote bg-light">
+  <div class="text-center">
+    <h3>
+      "A nice one or two line quote here."
+    </h3>
+    <footer>
+      <cite>- Someone Famous</cite>
+    </footer>
   </div>
 </div>
+
   <!-- Footer -->
   <footer id="contact">
-        <div class="container-fluid text-light">
+        <div class="p-5 container-fluid text-light">
             <h2 class="text-center p-4">CONTACT</h2>
             <div class="row">
-              <div class="card-deck">
+
               <div class="col m-4">
                 <p class="text-center text-light">Coming in to town and need recomendations on where to ride? Or just want to chat bikes? Drop us a line.</p>
-                <div class="row">
 
-                  <div class="col-sm-6 form-group">
+
+                  <form name="contactform" method="post" action="send_form_email.php">
+                    <div class="row">
+                  <div action="" class="col-sm-6 form-group has-danger has-success">
                     <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    <div class="invalid-feedback">
+                      Please provide a name.
+                    </div>
                   </div>
                   <div class="col-sm-6 form-group">
                     <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid email.
+                    </div>
                   </div>
                 </div>
                 <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                 <div class="row">
                   <div class="col-sm-6 form-check text-center">
                      <label class="form-check-label">
-                    <input type="checkbox" class="form-check-input">
+                    <input type="checkbox" class="form-check-input" name="check1" value="Sign me up for the POD!">
                     Sign me up for the POD!</label>
                   </div>
-                  <div class="col-sm-6 form-group text-center">
-                    <button class="btn btn-danger" type="submit">Send</button>
+                    <div class="col-sm-6 form-group text-center">
+                      <button class="btn btn-danger" type="submit">Send</button>
+                    </div>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </div>
+                <!-- <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                  'use strict';
+
+                  window.addEventListener('load', function() {
+                    var form = document.getElementById('needs-validation');
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  }, false);
+                })();
+                </script> -->
+
+
           <div class="container-fluid bg-dark p-4">
             <div class="row">
-             <div class="col-md-4">
+             <div class="col-md">
                <ul class="list-group text-dark h-100">
-                 <li class="list-group-item justify-content-between">
+                 <li class="list-group-item">
                    <h5>Hours:</h5>
                  </li>
                 <li class="list-group-item justify-content-between">
@@ -354,7 +453,7 @@
               </ul>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md">
                <div class=" h-100">
                  <ul class="list-group text-dark">
                    <li class="list-group-item justify-content-between">
@@ -385,7 +484,7 @@
                </div>
              </div>
 
-             <div class="col-md-4">
+             <div class="col-md">
                <ul class="list-group h-100">
                  <h5 class="list-group-item text-dark">Trail Info:</h5>
                 <li class="list-group-item"><a href="http://oztrailsnwa.com/trail-locations/">Oz Trails</a></li>
@@ -395,7 +494,7 @@
             </div>
           </div>
         </div>
-      
+
               <div class="container-fluid bg-dark">
                 <div class="row">
                   <div class="col-md-4 p-4">
@@ -431,6 +530,18 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> -->
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
   <script src="scripts/main.js"></script>
+  <!-- <script src="scripts/mdb.js"></script> -->
+  <!-- <script src="scripts/mdb.js"></script> -->
+  <script>
+    wow = new WOW({
+      boxClass: 'wow', // default
+      animateClass: 'animated', // default
+      offset: 0, // default
+      mobile: false,
+      live: true // default
+  })
+    new WOW().init();
+  </script>
 </body>
 
 </html>
