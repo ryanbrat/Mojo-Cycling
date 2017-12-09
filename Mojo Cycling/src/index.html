@@ -9,15 +9,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Bootstrap CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
-  <!-- Google Fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Pacifico" rel="stylesheet"> -->
-  <!-- Custom CSS -->
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"> -->
-  <!-- <link rel="stylesheet/scss" type="text/css" href="test.scss"> -->
-  <!-- <link rel="stylesheet" href="styles/mdb.css"> -->
   <link rel="stylesheet" href="styles/bootstrap.css">
-
   <link rel="stylesheet" href="styles/custom.css">
   <link rel=icon href="images/mojoSavedLogo.png">
 </head>
@@ -38,13 +30,13 @@
             <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#bikes">Bikes</a>
+            <a class="nav-link" href="#fittings">Fittings</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#accessories">Accessories</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#fittings">Fittings</a>
+            <a class="nav-link" href="#bikes">Bikes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#service">Service</a>
@@ -128,7 +120,27 @@
     <p class="font-italic">The details matter.</p>
   </div>
 
-    <div class="container p-5 text-center">
+  <!-- Fittings -->
+  <div id="fittings" class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 order-md-12 text-center">
+        <h3 class="p-4">A quality fit starts with selecting the right size and style of bike for you.</h3>
+        <p class="p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike.</p>
+        <p class="p-3">Already have a bike and want to improove your comfort and performance? Call to schedule your fitting today!</p>
+        <div class="container pt-4">
+          <div class="row">
+            <a href="/fitting" class="btn btn-danger text-light mx-auto">More about fittings</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-7 order-sm-1">
+        <img class="img-fluid" src="images/bikeFitting.jpg" alt="Card image">
+      </div>
+    </div>
+  </div>
+
+    <div class="container-fluid p-5 text-center bg-light">
       <div class="row">
         <div class="col-md-6">
             <h3 class="p-4">Every Mojo bike comes with:</h3>
@@ -139,23 +151,40 @@
           <h5><i class="fa fa-wrench pr-3" aria-hidden="true"></i>Lifetime free tune ups</h5>
         </div>
       </div>
-
-        <div class="container pt-4">
-          <div class="row">
-            <!-- <p class="">Every bike purchase comes with a free profesional fitting. A quality fitting starts with selecting the right size bike and is key to performance and comfort on your bike.</p> -->
-            <a href="/fitting" class="btn btn-danger text-light mx-auto">More about fittings</a>
-          </div>
-        </div>
-
-
     </div>
 
-    <!-- HERO IMAGE? -->
-    <div class="container-fluid">
-
+  <!-- Accessories -->
+<div id="accessories" class="container-fluid">
+  <div class="row">
+  <div class="col-md-5 p-5">
+      <h2 class="text-center p-2">Mojo Accessories</h2>
+    <h4 class="text-center p-4">Here is a short description to explain what protective equipment and accesories we offer.</h2>
+    <p class="p-3">The right safety accessories will ensure you enjoy your ride comfortably. We offer 10% off accessories with the purchase of a new bike!</p>
+    <div class="container">
+      <div class="row">
+        <a href="/brands" class="btn btn-danger text-light mx-auto">See all brands</a>
+      </div>
     </div>
+  </div>
+  <div class="col-md-7">
+    <img class="img-fluid" src="images/bikeShopShoes.jpg" alt="Card image">
+  </div>
+</div>
+</div>
 
-  <!-- First Section -->
+<!-- Quote Section -->
+<div class="container-fluid quote bg-light">
+  <div class="text-center">
+    <h3>
+      "Bro, do you put an angle set in everything?."
+    </h3>
+    <footer>
+      <cite>- That one guy</cite>
+    </footer>
+  </div>
+</div>
+
+<!-- Bike Section -->
   <div id="bikes" class="first-section container-fluid ">
     <div class="container p-5">
       <!-- <h2 class="text-light text-center p-4"></h2> -->
@@ -163,29 +192,43 @@
 
       <div class="card-deck mt-5 mb-5">
         <div class="col-md">
-          <div class="card h-100 bg-light text-dark p-3">
-            <div class="card-block text-center">
+          <div class="card h-100 bg-light text-dark p-4">
+            <div class="card-block text-center mb-4">
               <h3 class="card-title">Trail proven brands</h3>
               <p class="card-text">The brands we offer are proven on the trail and trusted by our riders.</p>
-              <a href="/brands" class="btn btn-danger">Our brands</a>
+
             </div>
+            <a href="/brands" class="btn btn-danger btn-block">Our brands</a>
           </div>
         </div>
         <div class="col-md">
-          <div class="card h-100 bg-light text-dark p-3">
-            <div class="card-block text-center">
+          <div class="card h-100 bg-light text-dark p-4">
+            <div class="card-block text-center mb-4">
               <h3 class="card-title">The bike for you</h3>
               <p class="card-text">We are here to help you find the right bike for your needs and budget.</p>
+              <!-- <a href="/bikes" class="btn btn-danger">Our bikes</a>
               <a href="/bikes" class="btn btn-danger">Our bikes</a>
+              <a href="/bikes" class="btn btn-danger">Our bikes</a> -->
+
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-danger dropdown-toggle btn-block" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Bikes
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="/road">Road</a>
+                <a class="dropdown-item" href="/mountain">Mountain</a>
+                <a class="dropdown-item" href="/hybrid">Hybrid</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md">
-          <div class="card h-100 bg-light text-dark p-3">
-            <div class="card-block text-center">
+          <div class="card h-100 bg-light text-dark p-4">
+            <div class="card-block text-center mb-4">
               <h3 class="card-title">Custom bike builds</h3>
               <p class="card-text">Ready to build your dream machine? We offer custom builds.</p>
-              <a href="/custom-builds" class="btn btn-danger">Recent builds</a>
+              <a href="/custom-builds" class="btn btn-danger btn-block">Recent builds</a>
             </div>
           </div>
         </div>
@@ -194,54 +237,16 @@
    </div>
   </div>
 
-  <!-- Quote Section -->
-  <div class="container-fluid quote bg-light">
-    <div class="text-center">
-      <h3>
-        "Bro, do you put an angle set in everything?."
-      </h3>
-      <footer>
-        <cite>- That one guy</cite>
-      </footer>
-    </div>
-  </div>
 
-  <!-- Accessories -->
-<div id="accessories" class="container-fluid">
-  <div class="row">
-  <div class="col-md-5 p-5">
-    <h2 class="text-center p-3 text-danger">Mojo Accessories</h2>
-    <h4 class="text-center p-2">Here is a short description to explain what protective equipment and accesories we offer.</h2>
-    <p class="p-3">The right safety accessories will ensure you enjoy your ride comfortably. We offer 10% off accessories with the purchase of a new bike!</p>
-  </div>
-  <div class="col-md-7">
-    <img class="img-fluid" src="images/bikeShopShoes.jpg" alt="Card image">
-  </div>
-</div>
-</div>
-
-    <!-- Fittings -->
-    <!-- <div id="fittings" class="container-fluid">
-      <div class="row">
-        <div class="col-md-5 order-md-12">
-          <h2 class="text-center p-4">Here is a short description to explain why we offer free fittings with a bike purchase.</h2>
-          <p class="text-light p-3">Every bike purchase comes with a free profesional fitting. A quality fitting is key to performance and comfort on your bike. Call to schedule your fitting today!</p>
-        </div>
-
-        <div class="col-md-7 order-sm-1">
-          <img class="img-fluid" src="images/bikeFitting.jpg" alt="Card image">
-        </div>
-      </div>
-    </div> -->
 
   <!-- Quote Section -->
   <div class="container-fluid quote bg-light">
     <div class="text-center">
       <h3>
-        "A nice one or two line quote here."
+        "Bike hero, you're my......  hero?"
       </h3>
       <footer>
-        <cite>- Someone Famous</cite>
+        <cite>- My biggest fan</cite>
       </footer>
     </div>
   </div>
@@ -287,27 +292,27 @@
     <div class="col-md-5 pr-4 pl-4">
       <div class="row">
         <div class="col-md-12">
-          <div class="team-images mx-auto h-100">
+          <div class="team-images mx-auto">
             <img class="" src="images/mugShot.jpg" alt="">
             <!-- </div> -->
-              <a href="#">
-                <div class="overlay text-light d-flex align-middle">
-                  <p class=""><strong>Dave Neal</strong></p>
-                  <p>Owner, shredder</p>
-                  <p class="font-italic">read bio</p>
-                </div>
-              </a>
+            <a href="#"><div class="pt-5 container overlay text-light">
+
+                <p class="mt-5"><strong>Dave Neal</strong></p>
+                <p>Owner, shredder</p>
+                <p class="font-italic">read bio</p>
+            </div>
+            </a>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <div class="team-images mx-auto">
-            <img class="" src="images/mugShot.jpg" alt="">
+            <img class="" src="images/hunter.jpg" alt="">
             <!-- </div> -->
             <a href="#"><div class="pt-5 container overlay text-light">
 
-                <p class="mt-4"><strong>Dave Neal</strong></p>
+                <p class="mt-5"><strong>Dave Neal</strong></p>
                 <p>Owner, shredder</p>
                 <p class="font-italic">read bio</p>
             </div>
@@ -322,7 +327,7 @@
             <!-- </div> -->
             <a href="#"><div class="pt-5 container overlay text-light">
 
-                <p class="mt-4"><strong>Dave Neal</strong></p>
+                <p class="mt-5"><strong>Dave Neal</strong></p>
                 <p>Owner, shredder</p>
                 <p class="font-italic">read bio</p>
             </div>
@@ -524,24 +529,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-
-
-  <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script> -->
-  <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> -->
   <script src="scripts/main.js"></script>
-  <!-- <script src="scripts/mdb.js"></script> -->
-  <!-- <script src="scripts/mdb.js"></script> -->
-  <script>
-    wow = new WOW({
-      boxClass: 'wow', // default
-      animateClass: 'animated', // default
-      offset: 0, // default
-      mobile: false,
-      live: true // default
-  })
-    new WOW().init();
-  </script>
 </body>
 
 </html>

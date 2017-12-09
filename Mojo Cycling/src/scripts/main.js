@@ -29,3 +29,11 @@ $('#btnFittingToggle').on('click', function() {
 $('#btnServiceToggle').on('click', function() {
     $('#serviceInfo').slideToggle();
 })
+
+
+// IN VIEW
+
+$('#custom-bikes .row').one('inview', function(){
+    console.log('inview' + $(this).data('class'));
+    $(this).addClass($(this).data('class'));
+})

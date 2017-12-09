@@ -1,7 +1,29 @@
 body{
   margin-top: 76px;
-
 }
+
+/*Nav logo positioning*/
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.small-brand {
+  left: 50px;
+  bottom: -120%;
+  position: static;
+  height: 60px;
+  width: 60px;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5;
+  }
+
+.card .carousel-item {
+  height: 200px;
+}
+
 #contact {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeTrail.jpg);
   background-repeat: no-repeat;
@@ -16,6 +38,19 @@ body{
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+}
+
+#bikes .btn{
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+}
+
+#bikes .dropdown{
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100%;
 }
 
 li{
@@ -55,19 +90,8 @@ li{
   padding: 0;
 }
 
-#accessories, #about{
-  background-color: lightgrey;
-}
 
 .service-header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-.brands-header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,37 +107,259 @@ li{
   background-attachment: fixed;
 }
 
-.card .carousel-item {
-  height: 200px;
+
+ /*BRANDS PAGE*/
+
+ #brands img {
+   max-width: 250px;
+   padding: 1rem;
+ }
+
+ .brands-header{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+ }
+
+/*ROAD PAGE*/
+
+.road-header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(/images/bikeShopWorkBench.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
-/*Nav logo positioning*/
-.nav-logo {
-  height: 60px;
-  width: 60px;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.5s;
+.road-race{
+  background-image: url(/images/orbeaRoad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-.small-brand {
-  left: 50px;
-  bottom: -120%;
-  position: static;
-  height: 60px;
-  width: 60px;
-  transition-timing-function: ease-in-out;
-  transition-duration: 0.5;
-  }
+.road-sport{
+  background-image: url(/images/orbeaSport.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.road-tri{
+  background-image: url(/images/orbeaTri.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.road-enduroad{
+  background-image: url(/images/gtEnduroad.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.road-cross{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#road-bikes{
+  background-color: lightgrey;
+}
+
+
+/*MOUNTAIN PAGE*/
+
+.mountain-enduro{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.mountain-xc{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.mountain-dh{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.mountain-dj{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.mountain-fr{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.mountain-ss{
+  background-image: url(/images/jamisCyclocross.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+/*CUSTOM BIKES*/
+
+.custom-khs-sixfifty{
+  background-image: url(/images/custom-khs-sixfifty.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-diety{
+  background-image: url(/images/custom-diety.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-transition-double{
+  background-image: url(/images/custom-transition-double.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-felt{
+  background-image: url(/images/custom-felt.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-cainfeild-jedi{
+  background-image: url(/images/custom-cainfeild-jedi-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-cainfeild-yelli{
+  background-image: url(/images/custom-cainfeild-yelli.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-khs-dj-white{
+  background-image: url(/images/custom-khs-dj-white.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-khs-purple{
+  background-image: url(/images/custom-khs-purple.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-khs-dj-black{
+  background-image: url(/images/custom-khs-dj-black.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-cainfeild-yelli-black{
+  background-image: url(/images/custom-cainfeild-yelli-black.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-voodoo{
+  background-image: url(/images/custom-voodoo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-cainfeild-yelli-orange{
+  background-image: url(/images/custom-cainfeild-yelli-orange.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+  /*TEAM IMAGES IN ABOUT SETCTION*/
 
   .team-images {
     position: relative;
-    max-width: 80%;
+    /*max-width: 80%;*/
   }
 
   .team-images img {
-  display: block;
-  width: 100%;
-  height: 100%;
+  /*display: block;*/
+  width: 300px;
+  height: 300px;
 }
 
   .overlay {
@@ -122,8 +368,8 @@ li{
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
+  height: 300px;
+  width: 300px;
   opacity: 0;
   transition: .5s ease;
   background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
@@ -132,6 +378,9 @@ li{
 .team-images:hover .overlay {
   opacity: 1;
 }
+
+
+/*MEDIA QUERRIES*/
 
 @media screen and (min-width: 768px) {
   /*Nav logo positioning*/
@@ -148,49 +397,3 @@ li{
   margin-top: 56px;
   }
  }
-
- #photos {
-   /* Prevent vertical gaps */
-   line-height: 0;
-
-   -webkit-column-count: 5;
-   -webkit-column-gap:   0px;
-   -moz-column-count:    5;
-   -moz-column-gap:      0px;
-   column-count:         5;
-   column-gap:           0px;
- }
-
- #photos img {
-   max-width: 100%;
-   padding: 1rem;
- }
-
- @media (max-width: 1200px) {
-  #photos {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 1000px) {
-  #photos {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-@media (max-width: 800px) {
-  #photos {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  #photos {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
