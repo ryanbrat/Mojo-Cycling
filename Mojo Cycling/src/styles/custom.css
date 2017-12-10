@@ -2,6 +2,19 @@ body{
   margin-top: 76px;
 }
 
+
+
+
+
+
+/*add padding to all pages for nav*/
+
+
+
+
+
+
+
 /*Nav logo positioning*/
 .nav-logo {
   height: 60px;
@@ -24,7 +37,7 @@ body{
   height: 200px;
 }
 
-#contact {
+.contact-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikeTrail.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +45,7 @@ body{
   background-attachment: fixed;
 }
 
-#bikes {
+.bike-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../images/bikesOnRack.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +147,7 @@ li{
 }
 
 .road-race{
-  background-image: url(/images/orbeaRoad.jpg);
+  background-image: url(/images/road-images/orbeaRoad.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -143,7 +156,7 @@ li{
 }
 
 .road-sport{
-  background-image: url(/images/orbeaSport.jpeg);
+  background-image: url(/images/road-images/orbeaSport.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -152,7 +165,7 @@ li{
 }
 
 .road-tri{
-  background-image: url(/images/orbeaTri.jpg);
+  background-image: url(/images/road-images/orbeaTri.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -161,7 +174,7 @@ li{
 }
 
 .road-enduroad{
-  background-image: url(/images/gtEnduroad.jpg);
+  background-image: url(/images/road-images/gtEnduroad.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -170,7 +183,7 @@ li{
 }
 
 .road-cross{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/road-images/jamisCyclocross.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -186,7 +199,7 @@ li{
 /*MOUNTAIN PAGE*/
 
 .mountain-enduro{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/orbea-rallon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -195,7 +208,7 @@ li{
 }
 
 .mountain-xc{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/orbea-mx.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -204,7 +217,7 @@ li{
 }
 
 .mountain-dh{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/gt-fury.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -213,7 +226,7 @@ li{
 }
 
 .mountain-dj{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/radio-dj.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -222,7 +235,7 @@ li{
 }
 
 .mountain-fr{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/ns-fuzz.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -231,7 +244,7 @@ li{
 }
 
 .mountain-ss{
-  background-image: url(/images/jamisCyclocross.jpg);
+  background-image: url(/images/mountain-images/jamis-exile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -241,8 +254,12 @@ li{
 
 /*CUSTOM BIKES*/
 
+#custom-bikes p{
+  padding: 2rem;
+}
+
 .custom-khs-sixfifty{
-  background-image: url(/images/custom-khs-sixfifty.jpeg);
+  background-image: url(/images/custom/custom-khs-sixfifty.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -251,7 +268,7 @@ li{
 }
 
 .custom-diety{
-  background-image: url(/images/custom-diety.jpeg);
+  background-image: url(/images/custom/custom-diety.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -260,7 +277,7 @@ li{
 }
 
 .custom-transition-double{
-  background-image: url(/images/custom-transition-double.jpeg);
+  background-image: url(/images/custom/custom-transition-double.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -269,7 +286,7 @@ li{
 }
 
 .custom-felt{
-  background-image: url(/images/custom-felt.jpeg);
+  background-image: url(/images/custom/custom-felt.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -278,7 +295,7 @@ li{
 }
 
 .custom-cainfeild-jedi{
-  background-image: url(/images/custom-cainfeild-jedi-2.jpeg);
+  background-image: url(/images/custom/custom-cainfeild-jedi-2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -287,7 +304,7 @@ li{
 }
 
 .custom-cainfeild-yelli{
-  background-image: url(/images/custom-cainfeild-yelli.jpeg);
+  background-image: url(/images/custom/custom-cainfeild-yelli.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -296,7 +313,7 @@ li{
 }
 
 .custom-khs-dj-white{
-  background-image: url(/images/custom-khs-dj-white.jpeg);
+  background-image: url(/images/custom/custom-khs-dj-white.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -305,7 +322,7 @@ li{
 }
 
 .custom-khs-purple{
-  background-image: url(/images/custom-khs-purple.jpeg);
+  background-image: url(/images/custom/custom-khs-purple.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -314,7 +331,7 @@ li{
 }
 
 .custom-khs-dj-black{
-  background-image: url(/images/custom-khs-dj-black.jpeg);
+  background-image: url(/images/custom/custom-khs-dj-black.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -323,7 +340,7 @@ li{
 }
 
 .custom-cainfeild-yelli-black{
-  background-image: url(/images/custom-cainfeild-yelli-black.jpeg);
+  background-image: url(/images/custom/custom-cainfeild-yelli-black.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -332,7 +349,7 @@ li{
 }
 
 .custom-voodoo{
-  background-image: url(/images/custom-voodoo.jpeg);
+  background-image: url(/images/custom/custom-voodoo.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -341,13 +358,81 @@ li{
 }
 
 .custom-cainfeild-yelli-orange{
-  background-image: url(/images/custom-cainfeild-yelli-orange.jpeg);
+  background-image: url(/images/custom/custom-cainfeild-yelli-orange.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
 }
+
+.custom-scott{
+  background-image: url(/images/custom/custom-scott.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-transition-dirtbag{
+  background-image: url(/images/custom/custom-transition-dirtbag.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-felt-compultion{
+  background-image: url(/images/custom/custom-felt-compultion.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-scott-voltage{
+  background-image: url(/images/custom/custom-scott-voltage.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.custom-salsa{
+  background-image: url(/images/custom/custom-salsa.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+
+
+/*HYBRID PAGE*/
+
+.hybrid-khs-ultrasport{
+  background-image: url(/images/hybrid-images/hybrid-khs-ultrasport.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.hybrid-jamis-cruiser{
+  background-image: url(/images/hybrid-images/hybrid-jamis-cruiser.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
 
   /*TEAM IMAGES IN ABOUT SETCTION*/
 
@@ -358,27 +443,33 @@ li{
 
   .team-images img {
   /*display: block;*/
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
+
 
   .overlay {
   position: absolute;
-  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 300px;
-  width: 300px;
+  height: 125px;
+  width: 250px;
   opacity: 0;
   transition: .5s ease;
   background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
-}
+  }
 
-.team-images:hover .overlay {
-  opacity: 1;
-}
+@media screen and (max-width: 768px) {
 
+  .hidden-md-down{
+    display: none;
+  }
+
+  .team-images .overlay {
+    opacity: 1;
+  }
+}
 
 /*MEDIA QUERRIES*/
 
@@ -396,4 +487,24 @@ li{
   body{
   margin-top: 56px;
   }
- }
+
+
+
+  .team-images:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay {
+  padding-top: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  }
+
+}

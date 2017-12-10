@@ -37,3 +37,8 @@ $('#custom-bikes .row').one('inview', function(){
     console.log('inview' + $(this).data('class'));
     $(this).addClass($(this).data('class'));
 })
+
+$('.body #contact').one('inview', function(){
+    console.log('inview' + $(this).data('class'));
+    $(this).addClass($(this).data('class'));
+})

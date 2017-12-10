@@ -15,7 +15,7 @@
     factory(jQuery);
   }
 }(function ($) {
-  var sensitivity = 500;
+  var sensitivity = 700;
 
   var inviewObjects = [],
     viewportSize, viewportOffset,
